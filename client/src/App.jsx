@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Banner from './components/Banner';
 import TermsAndCondition from './pages/TermsAndCondition';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className='font-[Lato]'>
       <Router>
+        <ScrollToTop />
         <Banner />
         <Header />
         <Routes>
