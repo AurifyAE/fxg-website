@@ -76,11 +76,16 @@ export default function Hero() {
 
             {/* Mobile social buttons */}
             <div className='lg:hidden absolute bottom-0 left-6 md:left-10 flex space-x-4'>
-                <button className='bg-black/30 backdrop-blur-lg p-3 rounded-2xl flex items-center gap-3'>
+                <button 
+                onClick={() => window.open('https://www.instagram.com/', '_blank')}
+                className='bg-black/30 backdrop-blur-lg p-3 rounded-2xl flex items-center gap-3'>
                     <p className='text-sm text-[#c0b5a9]'>Follow us</p>
+
                     <img src={instagram} alt="instagram" className='w-4 h-4 opacity-70' />
                 </button>
-                <button className='bg-black/30 backdrop-blur-lg p-3 rounded-2xl flex items-center gap-3'>
+                <button 
+                onClick={() => window.open('https://wa.me/971502746916', '_blank')}
+                className='bg-black/30 backdrop-blur-lg p-3 rounded-2xl flex items-center gap-3'>
                     <p className='text-sm text-[#c0b5a9]'>Connect us</p>
                     <img src={whatsapp} alt="whatsapp" className='w-4 h-4 opacity-70' />
                 </button>
