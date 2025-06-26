@@ -59,11 +59,15 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className='w-80 hidden md:flex absolute top-90 -left-25 rotate-90 space-x-12'>
-                    <button className='w-1/2 underline flex items-end gap-3 tracking-widest'>
+                    <button 
+                    onClick={() => window.open('https://www.instagram.com/fxggold/', '_blank')}
+                    className='w-1/2 underline flex items-end gap-3 tracking-widest cursor-pointer'>
                         Follow us
                         <img src={instagram} alt="instagram" className='w-5 h-5 -rotate-90' />
                     </button>
-                    <button className='w-1/2 underline flex items-end gap-3 tracking-widest'>
+                    <button 
+                    onClick={() => window.open('https://wa.me/971502746916', '_blank')}
+                    className='w-1/2 underline flex items-end gap-3 tracking-widest cursor-pointer'>
                         Connect us
                         <img src={whatsapp} alt="whatsapp" className='w-5 h-5 -rotate-90' />
                     </button>

@@ -65,7 +65,7 @@ export default function Highlights() {
             <div ref={sectionRef} className='relative flex flex-col lg:flex-row items-center justify-center gap-10 px-4 md:px-10 lg:px-36 py-16 md:py-24 lg:pb-28 lg:pt-10'>
                 {/* Text section */}
                 <div className='w-full lg:w-1/2 animate-slide-from-left'>
-                    <h1 className='text-3xl md:text-4xl lg:text-5xl font-bold pb-5'>Why Choose Us</h1>
+                    <h1 className='font-[Aptumi] text-3xl md:text-4xl lg:text-5xl font-bold pb-5'>Why Choose Us</h1>
                     <div className='flex flex-col items-start justify-center gap-2'>
                     {highlights.map((highlight, index) => (
                         <div key={index} className='flex items-start gap-3 py-4'>

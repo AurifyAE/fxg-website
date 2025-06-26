@@ -45,7 +45,7 @@ export default function Contact() {
         <div className="w-full h-[250px] sm:h-[300px] md:h-96">
             <iframe
             title="Fxg Jewellery Trading L.L.C"
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.927800805921!2d55.29729077538424!3d25.273014077662218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzIyLjkiTiA1NcKwMTcnNTkuNSJF!5e0!3m2!1sen!2sin!4v1748356998714!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3607.9506536314993!2d55.29644777538426!3d25.272245377662696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzIwLjEiTiA1NcKwMTcnNTYuNSJF!5e0!3m2!1sen!2sin!4v1750926087901!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -57,7 +57,7 @@ export default function Contact() {
 
         <div className='w-full flex justify-center items-center px-4'>
           <button className='w-full sm:w-3/4 md:w-1/2 lg:w-1/3 p-3 sm:p-2 bg-white text-black border border-[#BA8A54] rounded-xl flex justify-center items-center gap-2 text-sm sm:text-base cursor-pointer'
-          onClick={() => window.open('https://wa.me/97143368916', '_blank')}
+          onClick={() => window.open('https://wa.me/971502746916', '_blank')}
           >
             Connect on WhatsApp
             <img src={whatsappIcon} alt="Whatsapp" className='w-5 h-5 sm:w-6 sm:h-6' />

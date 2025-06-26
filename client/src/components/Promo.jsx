@@ -94,12 +94,12 @@ export default function Promo() {
                         <h1 className='text-3xl lg:text-5xl text-[#BA8A54] font-black leading-tight'>How to get started</h1>
 
                         <div className='flex flex-col gap-2 lg:gap-4'>
-                            <h4 className='text-[#BA8A54] text-lg lg:text-xl font-bold mt-6 lg:mt-10'>1. Download Mobile App</h4>
+                            <h4 className='text-[#BA8A54] text-xl lg:text-3xl font-black mt-6 lg:mt-10'>1. Download Mobile App</h4>
                             <p className='text-white text-base lg:text-lg leading-relaxed'>From App store or Google Play Store</p>
                         </div>
 
                         <div className='w-full lg:w-4/5 flex flex-col gap-2 lg:gap-4'>
-                            <h4 className='text-[#BA8A54] text-lg lg:text-xl font-bold mt-6 lg:mt-10'>2. Register</h4>
+                            <h4 className='text-[#BA8A54] text-xl lg:text-3xl font-black mt-6 lg:mt-10'>2. Register</h4>
                             <p className='text-white text-base lg:text-lg leading-relaxed'>Register your emails id and get the live gold and silver rates, Gold news etc in simple steps.</p>
                         </div>
 

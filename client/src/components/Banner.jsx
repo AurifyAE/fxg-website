@@ -14,9 +14,9 @@ export default function Banner() {
             </div>
             <div 
             className='h-5 flex items-center gap-3 cursor-pointer'
-            onClick={() => window.location.href = 'mailto:fxggold@gmail.com'}>
+            onClick={() => window.location.href = 'mailto:Fxggold@gmail.com'}>
                 <img src={mail} alt="mail" className='w-4 md:w-5' />
-                <p  className='text-xs md:text-base text-white'>fxggold@gmail.com</p>
+                <p  className='text-xs md:text-base text-white'>Fxggold@gmail.com</p>
             </div>
         </div>
     )
