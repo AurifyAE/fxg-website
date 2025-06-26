@@ -46,7 +46,7 @@ export default function Highlights() {
 
         return cleanup;
     }, []);
-
+    
     return (
         <div>
             <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-10 px-4 md:px-10 lg:px-36 py-16 md:py-24 lg:py-28 overflow-x-hidden'>

@@ -55,7 +55,7 @@ export default function Services() {
     }, []);
 
     return (
-        <div id='services' className='flex flex-col items-center justify-center bg-black text-white pb-40'>
+        <div id='services' className='flex flex-col items-center justify-center bg-black text-white pb-40 overflow-x-hidden'>
             <div className='text-center px-4 md:px-10 lg:px-36 py-16 md:py-24 lg:py-28'>
                 <h1 className='text-3xl md:text-4xl lg:text-5xl font-[Aptumi] text-[#BA8A54] font-bold pb-5'>Our Services</h1>
                 <p className='text-sm md:text-base lg:text-lg'>At FXG Gold, we offer a seamless and rewarding experience in bullion and gold trading, tailored to your investment goals.</p>
